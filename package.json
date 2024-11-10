@@ -1,0 +1,25 @@
+{
+  "name": "ai-code-reviewer",
+  "version": "1.0.0",
+  "description": "This GitHub Action utilizes LLM AI to automate Pull Request (PR) code reviews. The service is designed to integrate with GitHub workflows, providing intelligent feedback and suggestions on PRs to enhance code quality and efficiency. Here’s a brief overview of how it works:",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
+    "openai": "^4.71.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.14.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.13.0"
+  }
+}

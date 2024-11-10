@@ -1,0 +1,10 @@
+name: 'AI-code-reviewer'
+description: 'This GitHub Action utilizes LLM AI to automate Pull Request (PR) code reviews.'
+inputs: 
+  api-key:
+    description: LLM Service API Key
+    required: true
+  
+runs:
+  using: 'node20'
+  main: 'index.js'
